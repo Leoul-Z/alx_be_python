@@ -1,7 +1,7 @@
 # finance calculator
 monthly_income = int(input("Enter your monthly income: "))
 mothly_expenses = int(input("Enter your total monthly expenses: "))
-monthly_savings = monthly_income - mothly_expenses
+monthly_savings = float(monthly_income) - float(mothly_expenses)
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 print("Your monthly savings are $" + str(monthly_savings))
