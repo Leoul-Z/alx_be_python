@@ -1,6 +1,6 @@
 # simple interest
-p = 1000
-r = 0.05
-t = 3
-i = float((p*r*t))
-print("The simple interest is:", i)
+principal = 1000
+rate = 0.05
+time = 3
+interest = float((principal*rate*time))
+print("The simple interest is:", interest)
