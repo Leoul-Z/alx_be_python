@@ -22,7 +22,7 @@ while True:
 
 while True:
     choose = input(
-        "Is this temprature in Celsius or Fahrenhiet? (C/F): ").strip().upper()
+        "Is this temprature in Celsius or Fahrenheit? (C/F): ").strip().upper()
     if choose not in ("C", "F"):
         print("Invalid Unit ")
         continue
